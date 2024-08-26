@@ -1,0 +1,30 @@
+body{
+    background-color: #0003AB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0003AB;
+    text-align: center;
+}
+
+.container{
+    background-color: #FFFDCF;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid;
+    width: 400px;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 6cm;
+}
+
+#subtitulo{
+     color: #8082C7;
+}
+
+#resulta{
+    color: #8082C7;
+}

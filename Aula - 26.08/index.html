@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index 26.08</title>
+</head>
+<body>
+    <div class="center">
+    <div class="container">
+        <h1 id="title">Calcule seu salário.</h1>
+        <h4 id="subtitulo">Descubra seu salário líquido!</h4>
+            
+        <form id="salary-form">
+            <p><label for="valor-hora">Quanto você ganha por hora (R$):</label></p>
+            <input type="number" id="valor-hora" required>
+
+            <p><label for="horas-trabalhadas">Número de horas trabalhadas no mês:</label></p>
+            <input type="number" id="horas-trabalhadas" required>
+
+            <p><button type="button" onclick="calculateSalary()">Calcular</button></p>
+        </form>
+        <div id="results">
+            <h2 id="resulta">Resultados</h2>
+            <p id="salario-bruto">Salário Bruto: R$ 0.00</p>
+            <p id="valor-ir">IR (11%): R$ 0.00</p>
+            <p id="valor-inss">INSS (8%): R$ 0.00</p>
+            <p id="valor-sindicato">Sindicato (5%): R$ 0.00</p>
+            <p id="salario-liquido">Salário Líquido: R$ 0.00</p>
+        </div>
+    </div>           
+    </div>
+    <script src="algoritmo.js"></script>
+</body>
+</html>
