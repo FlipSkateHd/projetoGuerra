@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    background-color: rgb(122, 8, 8);
+    color: #dcdbd9;
+    letter-spacing: .20em; /* Adjust as needed */
+    text-align: center;
+}
+
+#container{
+    background-color: #a1181f;
+    border: 2px solid #000000;
+    padding: 50px;
+    border-radius: 40px;
+    align-items: center;
+}
+
+#effect{
+  font-size: 15px;
+  margin-bottom: 2%;
+}
+
+.txt{
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #a1181f;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 8px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.txt:hover{
+    background-color: #4a4d70;
+    align-items: center;
+}
+
