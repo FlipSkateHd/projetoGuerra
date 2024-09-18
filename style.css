@@ -2,8 +2,6 @@ body {
   font-family: 'Droid Serif', serif;
   font-size: 14px;
   background-image: url('https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-429.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body::-webkit-scrollbar {
