@@ -66,15 +66,15 @@ li,a {
 
 }
 .collum {
-  font-size: 20px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 30px;
+  width: 33.3%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
   vertical-align: top;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 50px;
   transition: all .7s;
-  text-align: justify;
-  width: 60%;
+  border-right: 1px solid #2f2f2f;
 }
 .collum:last-child {
   border-right: none;
@@ -101,4 +101,18 @@ img{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media screen and (max-width:600px) {
+  .collum {
+    font-size: 20px;
+    line-height: 40px;
+    vertical-align: top;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    transition: all .7s;
+    text-align: justify;
+    width: 60%;
+  }
 }
