@@ -65,19 +65,17 @@ li,a {
   margin: 30px 2% 0 2%;
 
 }
-
 .collum {
-  font-size: 22px;
-  line-height: 30px;
-  width: 33.3%;
-  display: inline-block;
-  padding: 0 1% 0 1%;
+  font-size: 20px;
+  line-height: 40px;
   vertical-align: top;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 50px;
   transition: all .7s;
-  border-right: 1px solid #2f2f2f;
+  text-align: justify;
+  width: 60%;
 }
-
 .collum:last-child {
   border-right: none;
 }
