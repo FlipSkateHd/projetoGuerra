@@ -1,7 +1,8 @@
 body {
   font-family: 'Droid Serif', serif;
-  font-size: 14px;
-  background-image: url('https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-429.jpg');
+  font-size: 3em;
+  background-image: url('https://img.freepik.com/premium-photo/kraft-paper-texture_250469-1830.jpg');
+  background-size: contain;
 }
 
 body::-webkit-scrollbar {
@@ -88,4 +89,9 @@ li,a {
   box-sizing: border-box;
   padding: 10px 0 10px 0;
   font-weight: bold;
+}
+
+img{
+  width: 30em;
+  height: 17em;
 }
