@@ -1,0 +1,91 @@
+body {
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  background-image: url('https://img.freepik.com/premium-photo/old-paper-texture-vintage-paper-background_262663-429.jpg');
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+}
+
+li,a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+#cabecalho {
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid #2f2f2f;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  border-bottom: 2px solid #2f2f2f;
+}
+#ant{
+  margin-left:  2px;
+  font-weight: bolder;
+}
+#prox{
+  margin-right:  2px;
+  font-weight: bolder;
+}
+
+#navOp li{
+  display: inline-block;
+  padding: 0 20px;
+  
+}
+
+#esquerda {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#container {
+  font-size: 0;
+  line-height: 0;
+  word-spacing: -.31em;
+  display: inline-block;
+  margin: 30px 2% 0 2%;
+
+}
+
+.collum {
+  font-size: 14px;
+  line-height: 20px;
+  width: 33.3%;
+  display: inline-block;
+  padding: 0 1% 0 1%;
+  vertical-align: top;
+  margin-bottom: 50px;
+  transition: all .7s;
+  border-right: 1px solid #2f2f2f;
+}
+
+.collum:last-child {
+  border-right: none;
+}
+
+.collum h1 {
+  line-height: 1em;
+  font-style: italic;
+  font-size: 36px;
+  box-sizing: border-box;
+  padding: 10px 0 10px 0;
+  font-weight: bold;
+}
