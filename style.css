@@ -95,3 +95,12 @@ img{
   width: 30em;
   height: 17em;
 }
+
+#rodape{
+  border-top: 2px solid #2f2f2f;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
