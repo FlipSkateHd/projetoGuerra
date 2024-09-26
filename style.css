@@ -113,9 +113,13 @@ img{
     line-height: 40px;
     margin-bottom: 50px;
     border-right: none;
-    vertical-align: top;
     border-bottom: 1px solid #2f2f2f;
     transition: all .7s;
     width: 70%;
+  }
+
+  img{
+    width: 20em;
+    height: 10em;
   }
 }
