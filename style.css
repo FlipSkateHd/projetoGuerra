@@ -36,7 +36,6 @@ li,a {
   align-items: center;
   font-size: 16px;
   border-bottom: 2px solid #2f2f2f;
-  background-color: rgb(201, 160, 111);
 }
 #ant{
   margin-left:  2px;
@@ -106,15 +105,17 @@ img{
 }
 
 @media screen and (max-width:600px) {
+
   .collum {
+    display: grid;
+    margin: auto;
     font-size: 20px;
     line-height: 40px;
-    vertical-align: top;
-    margin-right: auto;
-    margin-left: auto;
     margin-bottom: 50px;
+    border-right: none;
+    vertical-align: top;
+    border-bottom: 1px solid #2f2f2f;
     transition: all .7s;
-    text-align: justify;
-    width: 60%;
+    width: 70%;
   }
 }
